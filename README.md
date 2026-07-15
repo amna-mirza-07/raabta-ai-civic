@@ -1,16 +1,60 @@
-# React + Vite
+Raabta AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered civic complaint reporting system built with Google Gemma for the Build with Gemma Hackathon 2026.
 
-Currently, two official plugins are available:
+Raabta AI helps citizens report public issues quickly and efficiently. Users can upload an image, describe the issue using text or voice, and the system uses Google Gemma to identify the problem, recommend the appropriate government department, and generate a formal complaint automatically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
+📷 Image-based issue detection
+🎤 Voice complaint support
+✍️ Text complaint support
+🤖 AI-powered issue analysis using Google Gemma
+🏢 Automatic department recommendation
+📝 Formal complaint generation
+🗺️ Interactive location selection
+📂 Complaint history dashboard
+🎨 Modern and responsive user interface
+🛠️ Tech Stack
+Frontend
+React
+Vite
+Tailwind CSS
+Backend
+Python
+Flask
+Flask-CORS
+AI
+Google Gemma 4
+Google GenAI SDK
+Other Libraries
+Pillow
+Python Dotenv
+📁 Project Structure
+raabta-ai/
+│
+├── backend/
+│   ├── app.py
+│   ├── routes/
+│   ├── services/
+│   ├── models/
+│   ├── utils/
+│   ├── requirements.txt
+│   └── .env.example
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── assets/
+│   ├── screenshots/
+│   └── architecture.png
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚙️ How It Works
+User uploads an image or records a voice message or enters text.
+Google Gemma analyzes the complaint.
+The AI identifies the civic issue.
+The correct government department is recommended.
+A professional complaint is generated automatically.
+The user reviews the complaint before submission.
